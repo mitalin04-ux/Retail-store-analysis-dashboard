@@ -1,0 +1,286 @@
+{
+  "0: Timestamp": {
+    "dtype": "object",
+    "nunique": 64,
+    "null_count": 0,
+    "top_values": {
+      "9-4-2026 18:28:49": 1,
+      "9-4-2026 18:31:00": 1,
+      "9-4-2026 18:34:03": 1,
+      "9-4-2026 18:44:43": 1,
+      "9-4-2026 18:53:19": 1,
+      "9-4-2026 18:53:46": 1,
+      "9-4-2026 18:59:04": 1,
+      "9-4-2026 19:00:21": 1,
+      "9-4-2026 19:00:41": 1,
+      "9-4-2026 19:04:02": 1
+    }
+  },
+  "1: Email address": {
+    "dtype": "object",
+    "nunique": 63,
+    "null_count": 0,
+    "top_values": {
+      "cp4657466@gmail.com": 2,
+      "11singhsanjana@gmail.com": 1,
+      "aparnakunche96@gmail.com": 1,
+      "gauritiwari1409@gmail.com": 1,
+      "purvadighe4@gmail.com": 1,
+      "maxcartridges05@gmail.com": 1,
+      "imnitya09@gmail.com": 1,
+      "mrudulachinke@gmail.com": 1,
+      "premilaanandreddy@gmail.com": 1,
+      "ypatankar24@gmail.com": 1
+    }
+  },
+  "2: What type of store do you operate?": {
+    "dtype": "object",
+    "nunique": 8,
+    "null_count": 0,
+    "top_values": {
+      "Food / Cafe / Restaurant": 19,
+      "Clothing": 16,
+      "Grocery": 14,
+      "Electronics": 7,
+      "Stationary": 3,
+      "Pharmacy / Medical": 3,
+      "Gifts": 1,
+      "Cyber cafe": 1
+    }
+  },
+  "3: How long have you been running this store?": {
+    "dtype": "object",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "1�3 years": 24,
+      "Less than 1 year": 24,
+      "4�7 years": 9,
+      "More than 10 years": 5,
+      "8�10 years": 2
+    }
+  },
+  "4: What are the main problems you face when predicting sales and managing stock? (Select all that apply)": {
+    "dtype": "object",
+    "nunique": 19,
+    "null_count": 0,
+    "top_values": {
+      "Unpredictable changes in customer demand": 15,
+      "Supplier delays or inconsistent delivery": 9,
+      "Seasonal fluctuations and unexpected weather": 8,
+      "Unpredictable changes in customer demand, Supplier delays or inconsistent delivery": 7,
+      "Unpredictable changes in customer demand, Seasonal fluctuations and unexpected weather": 5,
+      "Unpredictable changes in customer demand, Supplier delays or inconsistent delivery, Lack of reliable historical sales data": 3,
+      "Unpredictable changes in customer demand, Supplier delays or inconsistent delivery, Lack of reliable historical sales data, Inadequate software or inventory tracking tools, Seasonal fluctuations and unexpected weather": 2,
+      "Unpredictable changes in customer demand, Inadequate software or inventory tracking tools": 2,
+      "Lack of reliable historical sales data": 2,
+      "Inadequate software or inventory tracking tools, Seasonal fluctuations and unexpected weather": 2
+    }
+  },
+  "5: What do you do when you have too much or too little stock?  (Select all that apply)": {
+    "dtype": "object",
+    "nunique": 19,
+    "null_count": 0,
+    "top_values": {
+      "Maintain safety stock / buffer inventory": 13,
+      "Place emergency orders at higher supplier costs": 7,
+      "Run discount promotions to clear excess stock": 6,
+      "Maintain safety stock / buffer inventory, Run discount promotions to clear excess stock": 6,
+      "Offer substitute products to customers": 5,
+      "Manually audit stock levels more frequently": 5,
+      "Maintain safety stock / buffer inventory, Offer substitute products to customers, Place emergency orders at higher supplier costs": 3,
+      "Maintain safety stock / buffer inventory, Place emergency orders at higher supplier costs, Manually audit stock levels more frequently": 3,
+      "Maintain safety stock / buffer inventory, Offer substitute products to customers": 3,
+      "Maintain safety stock / buffer inventory, Place emergency orders at higher supplier costs, Run discount promotions to clear excess stock": 2
+    }
+  },
+  "6: Have you ever lost sales because a product was unexpectedly out of stock?": {
+    "dtype": "object",
+    "nunique": 2,
+    "null_count": 0,
+    "top_values": {
+      "Yes": 48,
+      "No": 16
+    }
+  },
+  "7: Do you use a digital system, such as a POS or inventory app, to keep track of your past sales?": {
+    "dtype": "object",
+    "nunique": 2,
+    "null_count": 0,
+    "top_values": {
+      "Yes": 36,
+      "No": 28
+    }
+  },
+  "8: How much do unexpected changes in customer demand affect your shop's profits?": {
+    "dtype": "int64",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "3": 28,
+      "5": 12,
+      "2": 11,
+      "4": 9,
+      "1": 4
+    }
+  },
+  "9: How often do you have too much or too little stock that leads to products being wasted or spoiled?": {
+    "dtype": "object",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "Monthly": 22,
+      "Weekly": 14,
+      "Seasonally": 14,
+      "Rarely / Never": 9,
+      "Daily": 5
+    }
+  },
+  "10: In your opinion, what would help you most in predicting customer demand?": {
+    "dtype": "object",
+    "nunique": 4,
+    "null_count": 0,
+    "top_values": {
+      "Better communication and reliability from suppliers": 35,
+      "Access to local market trend data": 13,
+      "Access to affordable forecasting software": 12,
+      "Staff training on inventory management": 4
+    }
+  },
+  "11: How much have quick delivery apps (e.g., Blinkit, Zepto, Swiggy Instamart) affected your shop's daily customers and sales?": {
+    "dtype": "object",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "Moderately impacted (Noticeable but manageable drop)": 24,
+      "Slightly impacted (Minor changes in customer behavior)": 20,
+      "No impact (Sales remain steady)": 9,
+      "Severely impacted (Significant drop in sales/footfall)": 7,
+      "Positively impacted (Partnered with platforms/increased sales)": 4
+    }
+  },
+  "12: What have you done to compete with or adapt to 10-minute delivery apps? (Select all that apply)": {
+    "dtype": "object",
+    "nunique": 22,
+    "null_count": 0,
+    "top_values": {
+      "Offering home delivery via phone/WhatsApp orders": 15,
+      "Adopting digital payments (UPI) and modern billing": 8,
+      "Partnering directly with quick commerce or delivery platforms": 7,
+      "No specific strategy implemented yet": 5,
+      "Enhancing personalized customer relationships and in-store experience": 4,
+      "Adopting digital payments (UPI) and modern billing, Enhancing personalized customer relationships and in-store experience, Stocking fresh daily essentials (e.g., local bread, fresh milk) that platforms struggle to supply": 3,
+      "Offering home delivery via phone/WhatsApp orders, Partnering directly with quick commerce or delivery platforms": 3,
+      "Offering home delivery via phone/WhatsApp orders, Adopting digital payments (UPI) and modern billing": 3,
+      "Offering home delivery via phone/WhatsApp orders, Adopting digital payments (UPI) and modern billing, Partnering directly with quick commerce or delivery platforms": 2,
+      "Offering home delivery via phone/WhatsApp orders, Enhancing personalized customer relationships and in-store experience": 2
+    }
+  },
+  "13: How difficult is it to maintain competitive pricing compared to larger supermarkets and online platforms?": {
+    "dtype": "int64",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "3": 27,
+      "2": 15,
+      "4": 9,
+      "1": 7,
+      "5": 6
+    }
+  },
+  "14: How do you usually change your prices to stay competitive while still making a profit?": {
+    "dtype": "object",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "Provide loyalty discounts or flexible credit to regular customers": 23,
+      "Match online/supermarket prices as closely as possible": 15,
+      "Offer bundled discounts (e.g., Buy 1 Get 1)": 14,
+      "Focus on premium/niche products where price matters less": 7,
+      "I do not frequently adjust prices based on competitors": 5
+    }
+  },
+  "15: How often do your primary suppliers fail to deliver essential stock on time?": {
+    "dtype": "object",
+    "nunique": 4,
+    "null_count": 0,
+    "top_values": {
+      "Monthly": 27,
+      "Weekly": 18,
+      "Rarely / Never": 16,
+      "Daily": 3
+    }
+  },
+  "16: When a key supplier faces a shortage, what is your immediate backup plan? (Select all that apply)": {
+    "dtype": "object",
+    "nunique": 19,
+    "null_count": 0,
+    "top_values": {
+      "Inform customers to wait for the restock": 16,
+      "Switch to alternative brands or substitute products": 12,
+      "Switch to alternative brands or substitute products, Source from a different city or region": 6,
+      "Buy from local wholesalers at a higher price": 5,
+      "Borrow stock from neighboring stores": 4,
+      "Source from a different city or region": 3,
+      "Switch to alternative brands or substitute products, Inform customers to wait for the restock": 3,
+      "Buy from local wholesalers at a higher price, Inform customers to wait for the restock, Source from a different city or region": 2,
+      "Switch to alternative brands or substitute products, Borrow stock from neighboring stores": 2,
+      "Buy from local wholesalers at a higher price, Inform customers to wait for the restock": 2
+    }
+  },
+  "17: Which additional services do you offer to retain customers who might otherwise shop online? (Select all that apply)": {
+    "dtype": "object",
+    "nunique": 20,
+    "null_count": 0,
+    "top_values": {
+      "Easy return or exchange policies": 16,
+      "Free and quick home delivery": 11,
+      "Credit facility (Udhaar/Khata) for trusted customers": 7,
+      "Sourcing specific items on customer request": 5,
+      "Extended store operating hours": 3,
+      "Credit facility (Udhaar/Khata) for trusted customers, Easy return or exchange policies": 3,
+      "Free and quick home delivery, Sourcing specific items on customer request": 3,
+      "Easy return or exchange policies, Sourcing specific items on customer request": 2,
+      "Free and quick home delivery, Easy return or exchange policies, Sourcing specific items on customer request": 2,
+      "Free and quick home delivery, Easy return or exchange policies": 2
+    }
+  },
+  "18: Have you experienced sudden spikes in demand for specific products due to social media trends (e.g., viral snacks, local trends, fashion trends)?": {
+    "dtype": "object",
+    "nunique": 2,
+    "null_count": 0,
+    "top_values": {
+      "Yes": 52,
+      "No": 12
+    }
+  },
+  "19: If customers suddenly start asking for a new/trending product, how quickly can you usually get it in stock?": {
+    "dtype": "object",
+    "nunique": 5,
+    "null_count": 0,
+    "top_values": {
+      "Within a week": 29,
+      "Within 1-2 days": 18,
+      "Within a month": 12,
+      "I wait to see if the trend lasts before stocking": 3,
+      "I generally do not stock short-term trend-based items": 2
+    }
+  },
+  "20: What advice or strategy would you give to another local store owner struggling with overstocking, stockouts, or online competition?": {
+    "dtype": "object",
+    "nunique": 58,
+    "null_count": 2,
+    "top_values": {
+      "Nothing ": 3,
+      ". ": 2,
+      "nan": 2,
+      "-": 2,
+      "Focus on understanding customer needs, avoid overstocking, keep popular products available, and offer good service and attractive deals to bring customers back, and compete online through convenience, service, and local availability.": 1,
+      "Practice and patience ": 1,
+      "No advice from my side ": 1,
+      "Scale up": 1,
+      "To have easy access of the trendy clothes with budget friendly price ": 1,
+      "I would recommend keeping track of inventory carefully, ordering based on actual demand, and avoiding buying too much stock at once. Focus on fast-selling products, offer discounts on slow-moving items, and keep popular products available to prevent stockouts. To compete with online stores, provide good customer service, fair prices, and personalized service that encourages customers to shop locally.": 1
+    }
+  }
+}
