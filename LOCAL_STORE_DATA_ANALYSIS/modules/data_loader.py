@@ -1,7 +1,26 @@
+import os
 import pandas as pd
 import numpy as np
 
-CSV_PATH = "data/store_data.csv"
+# Robust absolute/relative path resolution for local dev & Streamlit Cloud
+_CURR_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.dirname(_CURR_DIR)
+
+_POSSIBLE_PATHS = [
+    os.path.join(_PROJECT_ROOT, "data", "store_data.csv"),
+    os.path.join(_PROJECT_ROOT, "LOCAL_STORE_DATA_ANALYSIS", "data", "store_data.csv"),
+    os.path.join(os.getcwd(), "data", "store_data.csv"),
+    os.path.join(os.getcwd(), "LOCAL_STORE_DATA_ANALYSIS", "data", "store_data.csv"),
+    "data/store_data.csv",
+    "LOCAL_STORE_DATA_ANALYSIS/data/store_data.csv"
+]
+
+CSV_PATH = os.path.join(_PROJECT_ROOT, "data", "store_data.csv")
+for p in _POSSIBLE_PATHS:
+    if os.path.exists(p):
+        CSV_PATH = p
+        break
+
 
 # Exact raw survey column mappings (grounded in CSV headers)
 COL_TIMESTAMP = "Timestamp"
